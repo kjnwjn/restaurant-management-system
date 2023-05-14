@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/kjnwjn/restaurant_management_API.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/kjnwjn/restaurant_management_FE.git
