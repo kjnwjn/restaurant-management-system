@@ -6,24 +6,55 @@ Giảng viên hướng dẫn: [**Dương Hữu Phúc**][dhp]
 Thành viên tham gia:
 
 -   Phạm Nguyễn Hoàng Quân - 51900419
--   Trần Hữu Nhất - 519H0210
 -   Nguyễn Minh Phước - 51900770
 
 ## Giới thiệu đề tài
 
--   Tên đề tài: **TÌM HIỂU VÀ PHÂN TÍCH PHÂN HỆ**
--   Đề tài "Quản lý đơn hàng của thực khách trong nhà hàng ăn uống" là một phân hệ quản lý đơn hàng trong ngành dịch vụ nhà hàng, giúp cho quản lý và nhân viên trong nhà hàng có thể quản lý và xử lý các đơn hàng của khách hàng một cách nhanh chóng và hiệu quả.
--   Phân hệ này sẽ cung cấp các chức năng như quản lý menu, đặt hàng, xử lý đơn hàng, thanh toán, quản lý thông tin khách hàng và lưu trữ dữ liệu. Các tính năng này sẽ giúp nhà hàng tăng hiệu quả trong quản lý đơn hàng, tiết kiệm thời gian và tăng khả năng tương tác với khách hàng.
+-   Tên đề tài: **TÌM HIỂU VÀ PHÂN TÍCH HỆ THỐNG THÔNG TIN SINH VIÊN**
+    Hệ thống quản lý thông tin sinh viên của sinh viên đóng vai trò hết sức quan trọng
+    đối với hoạt động của các trường đại học, cao đẳng, ... Hệ thống thông tin sinh viên
+    là một hệ thống cung cấp các dịch vụ, công cụ và tài nguyên để quản lý thông tin
+    liên quan đến sinh viên trong một trường đại học hoặc các tổ chức giáo dục khác.
+    Việc triển khai hệ thống thông tin sinh viên giúp trường đại học quản lý dữ liệu sinh
+    viên một cách chính xác và hiệu quả, từ đó giảm thiểu tình trạng nhầm lẫn và tránh
+    việc bị mất thông tin quan trọng. Hệ thống quản lý sinh viên giúp giảng viên và nhân
+    viên quản lý trường có thể dễ dàng truy cập và cập nhật thông tin sinh viên một
+    cách chính xác và nhanh chóng. Bên cạnh đó cũng giúp sinh viên quản lý thông tin
+    cá nhân, đăng ký học phần, xem thời khóa biểu và kiểm tra điểm số để dễ dàng quản
+    lý việc học tập. Hệ thống cung cấp các chức năng cơ bản như quản lý thông tin sinh
+    viên, quản lý lớp, quản lý điểm, quản lý môn học và các chức năng phục vụ việc học
+    tập như xem thời khóa biểu, đăng ký kế hoạch học tập, đăng ký môn học, ...
 
 ## Những tính năng chính
 
--   Đăng nhập/Đăng xuất
--   Quản lý nhân viên
--   Quản lý hóa đơn
--   Quản lý đơn hàng
--   Quản lý menu
--   Thanh toán
--   Báo cáo và thống kê
+-   Quản lý thông tin sinh viên: Cho phép quản lý các thông tin cá nhân của sinh viên
+    như tên, mã số sinh viên, ngày sinh, địa chỉ, số điện thoại, . . .
+-   Quản lý môn học: Cho phép quản lý các môn học mà sinh viên đã đăng ký, thêm
+    môn học
+-   Xem thông tin cá nhân: Cho phép sinh viên xem thông tin của bản thân và chỉnh
+    sửa các thông tin được cho phép
+-   Đăng ký kế hoạch học tập: Sinh viên thực hiện đăng ký kế hoạch học tập để thống
+    kê số lượng và mở lớp
+-   Đăng ký môn học: Sinh viên thực hiện đăng ký môn học
+-   Xem thời khóa biểu: Cho phép sinh viên xem thời khóa biểu theo tuần hoặc tổng
+    quát
+-   Thống kế số lượng sinh viên đăng ký: Thống kê số lượng sinh viên đăng ký kế
+    hoạch học tập để mở lớp
+
+-   Quản lý lớp môn học: Cho phép Phòng đại học mở lớp môn học và xem lại danh
+    sách các lớp môn học
+    ...
+-   Xem chi tiết trong file soa_final_project.pdf
+
+## Ảnh màn hình
+
+### Student Home Page
+
+![](./frontend//public//student_page.png'Student Home Page')
+
+### Admin Home Page
+
+![](./frontend//public//admin_page.png'Admin Home Page')
 
 ## Công nghê sử dụng
 
@@ -36,7 +67,7 @@ Công nghệ sử dụng xây dựng giao diện người dùng:
 
 -   [VueJS] - HTML enhanced for web apps!
 
-Hệ cơ sở dũ liệu : [MongoDB]
+Hệ cơ sở dũ liệu : [MongoDB] [MySQL]
 
 ## Cài đặt
 
@@ -61,6 +92,16 @@ Cấu hình các biến môi trường cho Front-end:
 -   **SERVER_BASE_URL**: địa chỉ mặc định của server.
 -   **VUE_APP_BASE_URL**: địa chỉ mặc định của VueJS font-end chạy ở môi trường DEV.
 -   **VUE_APP_API_URL**: chỉ định địa chỉ API cho việc call API ở phía font-end.
+
+Cấu hình các biến môi trường cho Back-end:
+
+-   **PORT**: port của server.
+-   **HOST**: host của server mặc định là localhost.
+-   **PORT_CLIENT**: port front end.
+-   **DB_URL**: địa chỉ url của mongodb docker (ex: mongodb://mongo_container:27017/SOA_Midterm).
+-   **ADMIN_PASSWORD**: 123456.
+-   **ACCESS_TOKEN_SECRET_KEY**: .
+-   **REFRESH_TOKEN_SECRET_KEY**: c.
 
 Cài đặt MongoDB, xem thêm cách cài đặt tại đây [MongoDB - Document]
 
@@ -99,6 +140,12 @@ npm run build
 ```
 
 Sau khi hoàn tất quá trình build ứng dụng, các tài nguyên được tạo trong thư mục **/frontend/dist**
+
+##### 3. Deploy với docker:
+
+```
+docker-compose up
+```
 
 ## License
 

@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  mongo_db:
+    image: mongodb/mongodb-community-server:6.0-ubi8
+    container_name: mongo_container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_db:/data/db
+  api:
+    build: ./backend
+    image: restaurant-sys-be
+    container_name: restaurant-sys-be
+    env_file: ./.env.docker
+    depends_on:
+      - mongo_db
+    ports:
+      - "3300:3300"
+volumes:
+  mongo_db: {}
