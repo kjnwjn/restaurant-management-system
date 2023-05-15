@@ -28,15 +28,15 @@ Thành viên tham gia:
 
 ### Ví dụ thực tế
 
-![](./latex_source/demo.PNG"Demo")
+[](./latex_source/demo.PNG "Demo")
 
 ### Use case diagram
 
-![](./latex_source/usecase.png"Use case diagram")
+[](./latex_source/usecase.png "Use case diagram")
 
 ### ERD diagram
 
-![](./latex_source/erd_diagram.png"ERD diagram")
+[](./latex_source/erd_diagram.png "ERD diagram")
 
 ## Công nghê sử dụng
 
