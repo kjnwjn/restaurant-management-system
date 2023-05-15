@@ -11,31 +11,32 @@ Thành viên tham gia:
 ## Giới thiệu đề tài
 
 -   Tên đề tài: **TÌM HIỂU VÀ PHÂN TÍCH PHÂN HỆ QUẢN LÝ ĐƠN HÀNG TỪ THỰC KHÁCH**
-    Hệ thống quản lý thông tin sinh viên của sinh viên đóng vai trò hết sức quan trọng
-    đối với hoạt động của các trường đại học, cao đẳng, ... Hệ thống thông tin sinh viên
-    là một hệ thống cung cấp các dịch vụ, công cụ và tài nguyên để quản lý thông tin
-    liên quan đến sinh viên trong một trường đại học hoặc các tổ chức giáo dục khác.
-    Việc triển khai hệ thống thông tin sinh viên giúp trường đại học quản lý dữ liệu sinh
-    viên một cách chính xác và hiệu quả, từ đó giảm thiểu tình trạng nhầm lẫn và tránh
-    việc bị mất thông tin quan trọng. Hệ thống quản lý sinh viên giúp giảng viên và nhân
-    viên quản lý trường có thể dễ dàng truy cập và cập nhật thông tin sinh viên một
-    cách chính xác và nhanh chóng. Bên cạnh đó cũng giúp sinh viên quản lý thông tin
-    cá nhân, đăng ký học phần, xem thời khóa biểu và kiểm tra điểm số để dễ dàng quản
-    lý việc học tập. Hệ thống cung cấp các chức năng cơ bản như quản lý thông tin sinh
-    viên, quản lý lớp, quản lý điểm, quản lý môn học và các chức năng phục vụ việc học
-    tập như xem thời khóa biểu, đăng ký kế hoạch học tập, đăng ký môn học, ...
+    Nhằm tin học hoá quá trình giao tiếp giữa nhân viên phục vụ của nhà hàng và thực khách,
+    nhà hàng đã yêu cầu xây dựng 1 phân hệ quản lý đơn hàng của thực khách . Ví dụ như hình dưới đây. Phân hệ cho phép (1) thực khách/khách hàng , (2)Nhân viên phục vụ, (3)Nhân viên bếp có thể tương tác với nhau theo thời gian thực, tăng cường trải nghiệm dùng bữa và giảm thiểu sai sót . Thực khách có thể chủ động trong việc gọi món ăn kiểm soát các món ăn đã gọi, cũng như tổng tiền của hoá đơn. Với nhân viên phục vụ, thay vì phải thực hiện các thao tác thủ công chắng hạn, ghi đơn hàng vào phiếu gọi món và chuyển phiếu đến co nhân viên bếp để chuẩn bị món ăn, thì việc triển khai phân hệ này cho phép giảm thiểu các thao tác thủ công như trước đây và đảm bảo tính chính xác. Bên cạnh đó, phân hệ cho phép nhân viên bếp kiểm soát các món ăn được gọi từ thực khách, đặc biệt là đảm bảo tính chính xác cho các ghi chú từ thực khách, điều mà trước đây thường xuyên xảy ra sai sót.
 
 ## Những tính năng chính
 
-• Đăng nhập/Đăng xuất
-• Quản lý nhân viên
-• Quản lý hóa đơn
-• Quản lý đơn hàng
-• Quản lý menu
-• Thanh toán
-• Báo cáo và thống kê
+-   Đăng nhập/Đăng xuất
+-   Quản lý nhân viên
+-   Quản lý hóa đơn
+-   Quản lý đơn hàng
+-   Quản lý menu
+-   Thanh toán
+-   Báo cáo và thống kê
 
 ## Ảnh màn hình
+
+### Ví dụ thực tế
+
+![](./latex_source/demo.PNG"Demo")
+
+### Use case diagram
+
+![](./latex_source/usecase.png"Use case diagram")
+
+### ERD diagram
+
+![](./latex_source/erd_diagram.png"ERD diagram")
 
 ## Công nghê sử dụng
 
