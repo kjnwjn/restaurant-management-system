@@ -10,7 +10,7 @@ Thành viên tham gia:
 
 ## Giới thiệu đề tài
 
--   Tên đề tài: **TÌM HIỂU VÀ PHÂN TÍCH HỆ THỐNG THÔNG TIN SINH VIÊN**
+-   Tên đề tài: **TÌM HIỂU VÀ PHÂN TÍCH PHÂN HỆ QUẢN LÝ ĐƠN HÀNG TỪ THỰC KHÁCH**
     Hệ thống quản lý thông tin sinh viên của sinh viên đóng vai trò hết sức quan trọng
     đối với hoạt động của các trường đại học, cao đẳng, ... Hệ thống thông tin sinh viên
     là một hệ thống cung cấp các dịch vụ, công cụ và tài nguyên để quản lý thông tin
@@ -27,34 +27,15 @@ Thành viên tham gia:
 
 ## Những tính năng chính
 
--   Quản lý thông tin sinh viên: Cho phép quản lý các thông tin cá nhân của sinh viên
-    như tên, mã số sinh viên, ngày sinh, địa chỉ, số điện thoại, . . .
--   Quản lý môn học: Cho phép quản lý các môn học mà sinh viên đã đăng ký, thêm
-    môn học
--   Xem thông tin cá nhân: Cho phép sinh viên xem thông tin của bản thân và chỉnh
-    sửa các thông tin được cho phép
--   Đăng ký kế hoạch học tập: Sinh viên thực hiện đăng ký kế hoạch học tập để thống
-    kê số lượng và mở lớp
--   Đăng ký môn học: Sinh viên thực hiện đăng ký môn học
--   Xem thời khóa biểu: Cho phép sinh viên xem thời khóa biểu theo tuần hoặc tổng
-    quát
--   Thống kế số lượng sinh viên đăng ký: Thống kê số lượng sinh viên đăng ký kế
-    hoạch học tập để mở lớp
-
--   Quản lý lớp môn học: Cho phép Phòng đại học mở lớp môn học và xem lại danh
-    sách các lớp môn học
-    ...
--   Xem chi tiết trong file soa_final_project.pdf
+• Đăng nhập/Đăng xuất
+• Quản lý nhân viên
+• Quản lý hóa đơn
+• Quản lý đơn hàng
+• Quản lý menu
+• Thanh toán
+• Báo cáo và thống kê
 
 ## Ảnh màn hình
-
-### Student Home Page
-
-![](./frontend//public//student_page.png'Student Home Page')
-
-### Admin Home Page
-
-![](./frontend//public//admin_page.png'Admin Home Page')
 
 ## Công nghê sử dụng
 
@@ -62,12 +43,14 @@ Công nghệ sử dụng cho việc xây dụng hệ thống API BACK-END:
 
 -   [Node.js] - evented I/O for the backend
 -   [Express] - fast node.js network app framework
+-   [SocketIO] - Bidirectional and low-latency communication for every platform
+-   [Docker] - Bidirectional and low-latency communication for every platform
 
 Công nghệ sử dụng xây dựng giao diện người dùng:
 
 -   [VueJS] - HTML enhanced for web apps!
 
-Hệ cơ sở dũ liệu : [MongoDB] [MySQL]
+Hệ cơ sở dũ liệu : [MongoDB]
 
 ## Cài đặt
 
@@ -101,7 +84,7 @@ Cấu hình các biến môi trường cho Back-end:
 -   **DB_URL**: địa chỉ url của mongodb docker (ex: mongodb://mongo_container:27017/SOA_Midterm).
 -   **ADMIN_PASSWORD**: 123456.
 -   **ACCESS_TOKEN_SECRET_KEY**: .
--   **REFRESH_TOKEN_SECRET_KEY**: c.
+-   **REFRESH_TOKEN_SECRET_KEY**: .
 
 Cài đặt MongoDB, xem thêm cách cài đặt tại đây [MongoDB - Document]
 
@@ -161,3 +144,5 @@ MIT
 [vuejs]: http://vuejs.org
 [mongodb]: https://www.mongodb.com
 [mongodb - document]: https://www.mongodb.com/docs/
+[SocketIO]: https://socket.io/
+[Docker]: https://www.docker.com/
