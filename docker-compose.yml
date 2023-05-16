@@ -17,5 +17,12 @@ services:
       - mongo_db
     ports:
       - "3300:3300"
+  view:
+    build: ./frontend
+    image: restaurant-sys-fe
+    container_name: restaurant-sys-fe
+    env_file: ./.env.docker
+    ports:
+      - "8080:8080"
 volumes:
   mongo_db: {}
