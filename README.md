@@ -24,19 +24,43 @@ Thành viên tham gia:
 -   Thanh toán
 -   Báo cáo và thống kê
 
-## Ảnh màn hình
+## 🔗Link demo
 
-### Ví dụ thực tế
+<a  margin=5 href="https://restaurant-management-fe.vercel.app/" target="blank">
+    <img src="https://img.shields.io/badge/OpenProject-0770B8.svg?style=for-the-badge&logo=OpenProject&logoColor=white" alt="kjnwjn" height="30"/>
+</a>
 
-![](./latex_source/demo.PNG "Demo")
+## 📷Screenshot
+
+### Dashboard
+
+<div align="center" style="margin-bottom: 4rem">
+    <img width="70%" src="./frontend/src/assets/dashboard.png"/>
+</div>
+
+### 🔥Login
+
+<div align="center" style="margin-bottom: 4rem">
+    <img width="70%" src="./frontend/src/assets/login.png"/>
+</div>
+
+### Client
+
+<div align="center" style="margin-bottom: 4rem">
+    <img width="70%" src="./frontend/src/assets/client.png"/>
+</div>
 
 ### Use case diagram
 
-![](./latex_source/usecase.png "Use case diagram")
+<div align="center" style="margin-bottom: 4rem">
+    <img width="70%" src="./latex_source/usecase.png"/>
+</div>
 
 ### ERD diagram
 
-![](./latex_source/erd_diagram.png "ERD diagram")
+<div align="center" style="margin-bottom: 4rem">
+    <img width="70%" src="./latex_source/erd_diagram.png"/>
+</div>
 
 ## Công nghê sử dụng
 
