@@ -32,22 +32,22 @@ Thành viên tham gia:
 
 ## 📷Screenshot
 
-### Dashboard
+### 🔥Dashboard
 
 <div align="center" style="margin-bottom: 4rem">
-    <img width="70%" src="./frontend/src/assets/dashboard.png"/>
+    <img width="70%" src="./latex_source/dashboard.png"/>
 </div>
 
 ### 🔥Login
 
 <div align="center" style="margin-bottom: 4rem">
-    <img width="70%" src="./frontend/src/assets/login.png"/>
+    <img width="70%" src="./latex_source/login.png"/>
 </div>
 
-### Client
+### 🔥Client
 
 <div align="center" style="margin-bottom: 4rem">
-    <img width="70%" src="./frontend/src/assets/client.png"/>
+    <img width="70%" src="./latex_source/client.png"/>
 </div>
 
 ### Use case diagram
